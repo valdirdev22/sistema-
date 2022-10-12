@@ -1,0 +1,354 @@
+
+body {
+   background: #3d86e6;
+
+ }
+ 
+
+.imagem {
+   width: 200px; 
+   height: 200px;
+   position: relative;
+   float: right;
+   margin-top: -3%;
+   margin-right: 13px;
+   border-radius: 50%;
+}
+
+
+.container{
+   position: relative; 
+   background: #f89007;
+   max-width: 1470px;
+   height: 550px;
+   padding-bottom: 35px;
+   padding-top: 48px;
+   padding-left: 23px;
+   border-style:solid;
+   border: 4px;
+   border-radius: 25px;
+ }
+ 
+ 
+
+.titulo-menu {
+   margin-left: 5%;
+}
+
+.flex-container {
+   display: flex;
+   margin-top: -45px;
+   margin-left: -40px;   
+}
+
+.flex-container > div {
+   margin: 21px;
+   padding: 3px;
+   
+}
+
+
+
+.titulo-dinheiro {
+   font-family: cursive;
+   font-size: 2.2em;
+   margin-top: -30px;
+   margin-left: -115px;
+   color: #130b88;
+}
+
+.troco #vl_dinheiro {
+   margin-top: -48px;
+   margin-left: 90px;
+}
+
+.pagar {
+   position: relative;
+   margin-top: -300px;
+   margin-left: 650px;
+}
+
+div.pagar#resultado_1 {
+   position: relative;
+   margin-top: -500px;
+   margin-left: 670px;
+}
+
+
+div.pagar { 
+   position: relative;
+   margin-top: -495px;
+   margin-left: 620px;
+}
+
+
+div.troco {
+   position: relative;
+   margin-top: 350px;
+   padding-top: 40px;
+   margin-left: -210px;
+}
+
+
+
+  #btn_finalizar_pedido{
+   background: blue;
+   position: relative;
+   margin-top: 2px;
+   margin-left: 5px;
+   padding-top: -3px;
+   width: 300px;
+   height: 46px;
+}
+
+
+.pagar #btn_calcular {
+   background: blue;
+   position: relative;
+   width: 300px;
+   height: 46px;
+}
+
+
+div #resultado_2 {
+   position: relative;
+   margin-top: 35px;
+   margin-left: -180px; 
+   padding-left: 205px;
+
+}
+
+
+div #resultado_3 {
+   position: relative;
+   margin-top: 68px;
+   margin-left: -125px; 
+   padding-left: 205px;
+
+}
+
+div.result_2 {
+   position: relative;
+   margin-top: 20px;
+   margin-left: -300px;
+}
+
+div.lista {
+   position: relative;
+   margin-top: -37px;
+   margin-left: -70px;
+}
+
+
+.form-salgados {
+   position: relative;
+   border: 7px solid rgb(33, 99, 243);
+   width: 280px;
+   height: 500px;
+   margin-left: -3px;
+   margin-top: 16px;
+   padding-top: -2px;
+   padding-left: 8px;
+   border-radius: 12px;
+   
+}
+
+.form-doces {
+   position: relative;
+   border: 7px solid rgb(33, 99, 243);
+   width: 280px;
+   height: 500px;
+   margin-left: 307px;
+   margin-top: -512px;
+   margin-bottom: -5px;
+   padding-left: 8px;
+   padding-top: -18px;
+   border-radius: 12px;
+   
+}
+
+
+.text-label {
+   color: #f8f0f0;
+   font-size:17px;
+
+}
+
+.text-label-font-menor{
+   color: #f8f0f0;
+   font-size:17px;
+   
+}
+
+form input, form label {
+   display: block;
+   width: 100%;
+   margin-bottom: 10px;
+   font-size:medium;
+   color:rgb(10, 10, 10)
+}
+
+form input {
+   position: relative;
+   max-width: 80px;
+   max-height: 56px;
+   font-size: 24px;
+   background: #f1f0ee;
+   border-radius: 25px;
+   border: 2px;
+   
+}
+
+.itens_pastel {
+   position: relative;
+   color: #f1f4f7;
+   font-size: 21px;
+   margin-top: 5%;
+   margin-left: 2%;
+}
+
+.itens_hot_dog {
+   position: relative;
+   color: #f1f4f7;
+   font-size: 21px;
+   margin-top: 3%;
+   margin-left: 2%;
+}
+
+#pastel {
+   position: relative;
+   margin-top: 2%;
+   margin-left: 12%;
+}
+
+.pro_edwiges {
+   font-size: 15px;
+   color: #240152;
+}
+
+#dog {
+   position: relative;
+   margin-top: 2%;
+   margin-left: 12%;
+}
+
+#bolos {
+   position: relative;
+   margin-top: 2%;
+   margin-left: 12%;
+   font-size: 21px;
+}
+
+#pudim {
+   position: relative;
+   margin-top: 2%;
+   margin-left: 12%;
+   font-size: 21px;
+}
+
+#canjica {
+   position: relative;
+   margin-top: 2%;
+   margin-left: 12%;
+   font-size: 21px;
+}
+
+#refri {
+   position: relative;
+   margin-top: 2%;
+   margin-left: 12%;
+   font-size: 21px;
+}
+
+
+div input {
+   position: relative;
+   width: 100px;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 7px;
+   
+}
+
+form input:focus {
+   outline: 3px solid rgb(250, 246, 241);
+}
+
+
+form #btn_calcular {
+   position: relative;
+   background: blue;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+
+form #btn_finalizar_pedido {
+   position: relative;
+   background: blue;
+    color: #FFFF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2em;
+    margin-right: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+  
+}
+
+
+ .paragrafo_resultado_1, .bad_1 {
+      position: relative;
+      margin-top: 17px;
+      margin-left: 56px;
+      font-size: 17px;
+      background-color: rgb(109, 255, 182);
+      width: 200px;
+      height: 47px;
+      padding-top: 25px;
+      padding-left: 18px;
+      padding-bottom: 15px;
+      border-radius: 45%;     
+}
+ 
+.bad_1 {
+   background: rgb(255, 150, 150);
+}
+
+.paragrafo_resultado_2, .bad_2 {
+         position: relative;
+         background-color: rgb(245, 248, 48); 
+         margin-top: 40px;
+         margin-left: -5px;
+         padding-left: 12px;
+         padding-top: 24px;
+         padding-bottom: 28px;
+         width: 200px;
+         height: 48px; 
+         border-radius: 45%;      
+         
+}
+
+.bad_2 {
+background: rgb(255, 150, 150);
+}
+
+
+.paragrafo_resultado_3, .bad_3 {
+   position: relative;
+   font-size:larger;
+   margin-left: 80px;
+   width: 410px;
+   height: 120px;        
+}
+
+.bad_3 {
+background: rgb(255, 150, 150);
+}
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sistema Santa Edwiges</title>
+
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  <body>
+    <section class='container'>
+           <img src="./IMG/Edwiges_3.jpg" class="imagem" alt="Foto Santa Edwiges">
+
+          <div class="flex-container">
+    
+              
+             <form action="/" id="formulario_1" method="POST">
+                
+                   <div class="form-salgados">
+                  
+                            <h1><b class="titulo-menu">SALGDOS</b></h1>
+                            
+                            <label class="text-label itens_pastel" for="pastel">PASTEL </label>
+                            <div class="pro_edwiges" >
+                           <b> 01 - POR R$ 6,00 <br>
+                            02 - POR R$ 10,00 </b>
+                          </div>
+                           
+                            <input type="text" id="pastel" name="pastel">
+
+                            <label class="text-label itens_hot_dog" for="dog">HOT DOG</label>
+                            <div class="pro_edwiges">
+                              <b> 01 - POR R$ 8,00 <br>
+                               02 - POR R$ 15,00 </b>
+                              </div>
+                            <input type="text" id="dog" name="dog">
+                          
+                            <!--<label class="text-label itens_mocoto" for="mocoto">--->
+
+                            </label>
+                            <!--
+                            <div class="pro_edwiges">
+                              <b> 01 - POR R$  9,00 <br>
+                               </b>
+                              </div>
+                            <input type="text" id="mocoto" name="mocoto">--->     
+                                 
+                          </div>
+                         
+                            <div class="form-doces">
+
+                                <h1><b class="titulo-menu">DOCES</b></h1>
+                                
+                                <label class="text-label itens_pastel" for="bolos">BOLO RECHEADO</label>
+                                <div class="pro_edwiges" >
+                                  <b> 01 - POR R$ 5,00 <br></b>
+                                </div>
+                                <input type="text" id="bolos" name="bolos">
+    
+                                <label class="text-label itens_hot_dog" for="pudim">BOLO SEM RECHEIO</label>
+                                
+                                <div class="pro_edwiges" >
+                                  <b> 01 - POR R$ 3,00 <br>
+                                   </b>
+                                  </div>
+                                <input type="text" id="pudim" name="pudim">
+                               
+                                <label class="text-label itens_mocoto" for="canjica">PUDIM DIVERSOS</label>
+                                <div class="pro_edwiges" >
+                                  <b> 01 - POR R$ 5,00 <br>
+                                   </b>
+                                  </div> 
+
+                                <input type="text" id="canjica" name="canjica">     
+                                <label class="text-label itens_mocoto" for="refri">REFRIGERANTE DOLINHO</label>
+                                <div class="pro_edwiges" >
+                                  <b> 01 - POR R$ 3,00 <br>
+                                  </b>
+                                </div>
+                                <input type="text" id="refri" name="refri">     
+                                   
+                          </div>
+
+                          <div class="pagar">
+                            <button type='submit' id="btn_finalizar_pedido">FECHAR PEDIDO</button>
+                             <div id="resultado_1"></div>
+                            
+                             <div class="lista">
+                            <div id="resultado_3"></div>
+                           </div>
+                          </div>
+                        
+                        </form> 
+
+
+                       <form action="/" id="formulario_2" method="POST">
+
+                          <div class="troco">
+                            <label for="dinheiro" class="titulo-dinheiro"><b>DINHEIRO</b></label>     
+                            <input type="text" id="vl_dinheiro" name="dinheiro">     
+                             
+                          </div>
+                          
+                          <div class="result_2">
+                            
+                            <button type='submit' id="btn_calcular">CALCULAR</button> 
+                            <div id="resultado_2"></div>
+                            </div>
+                      </form> 
+
+                        </div> 
+                     
+        </section>
+        <script src="calculo_imc.js"></script>
+            
+      </body>
+</html>
+
